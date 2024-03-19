@@ -7,7 +7,7 @@ def binary_search(sequence, target):
         middle_number = sequence[mid]
 
         if middle_number == target:
-            return f"the target is at position: {mid}"
+            return f"your target is at position: {mid}"
         elif target > middle_number:
             low = mid + 1
         else:
