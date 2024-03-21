@@ -13,6 +13,6 @@ def binary_search(sequence, target):
         else:
             high = mid - 1 
 
-    return f"your target is not in the sequence"
+    return f" target is not in the sequence"
 print(binary_search(sequence=[1,2,3,4,5,6,7,8,9],target=11))
 
